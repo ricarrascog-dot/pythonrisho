@@ -8,7 +8,7 @@ while opcion != 2:
     print("2. Salir")
     
     try:
-        opcion = int(input("Seleccione una opción: "))
+        opcion = int(input("Seleccione una opción loco: "))
     except ValueError:
         print("Error: debe ingresar un número entero.")
         opcion = 0
