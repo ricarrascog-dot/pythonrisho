@@ -1,6 +1,7 @@
-def funcion():
-    print("Hola, esta es una función de ejemplo.")
-    return "Función ejecutada correctamente."
-
-frase = funcion()
-print(frase)    
+def resta (a=None, b=None):
+    if a == None or b==None:
+        print("Faltan datos")
+        return
+    return (a-b)
+print(resta(10, 5))
+        
