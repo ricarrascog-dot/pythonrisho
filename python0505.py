@@ -4,7 +4,7 @@ print ("Nombre", diccionario["Nombre"])
 print ("Segundo Telefono",diccionario["fonos"][1]) 
 #Inserción 
 diccionario["email"]="cesar.huispe@example.com"
-diccionario["fonos"].append(123456) 
+diccionario["fonos"].append(123456789) 
 #Actualizacion
 diccionario["activo"]=False
 diccionario["fonos"][0]=999999999
