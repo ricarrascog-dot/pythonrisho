@@ -29,4 +29,8 @@ def validacion_texto(texto_a_mostrar):
             flag_texto = False
         else:
             print("El texto no puede estar vacio")
-    return texto        
+    return texto  
+
+def listar_personas(lista):
+    for persona in lista:
+        print(persona)      
